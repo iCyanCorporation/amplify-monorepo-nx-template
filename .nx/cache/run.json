@@ -1,9 +1,0 @@
-{
-  "run": {
-    "command": "nx dev sample",
-    "startTime": "2025-07-10T08:57:35.250Z",
-    "endTime": "2025-07-10T08:58:10.730Z",
-    "inner": false
-  },
-  "tasks": []
-}

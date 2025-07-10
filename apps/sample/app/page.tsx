@@ -11,7 +11,7 @@ export default function Index() {
           <div id="welcome">
             <h1>
               <span> Hello there, </span>
-              Welcome @voices/voices 👋
+              Welcome @sample/sample 👋
             </h1>
           </div>
 
@@ -324,8 +324,8 @@ export default function Index() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  {' '}
-                  What is Nx Cloud?{' '}
+                  {" "}
+                  What is Nx Cloud?{" "}
                 </a>
               </div>
               <a
@@ -395,7 +395,7 @@ export default function Index() {
                 </svg>
                 View project details
               </summary>
-              <pre>nx show project @voices/voices --web</pre>
+              <pre>nx show project @sample/sample --web</pre>
             </details>
             <details>
               <summary>

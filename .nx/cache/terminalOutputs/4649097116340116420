@@ -1,16 +1,0 @@
-> next dev
-
-   [1m[38;2;173;127;168m▲ Next.js 15.2.5[39m[22m
-   - Local:        http://localhost:3000
-   - Network:      http://192.168.0.50:3000
-
- [32m[1m✓[22m[39m Starting...
-NX: Next.js SVGR support is deprecated. If used with turbopack, it may not work as expected and is not recommended. Please configure SVGR manually.
-NX: Next.js SVGR support is deprecated. If used with turbopack, it may not work as expected and is not recommended. Please configure SVGR manually.
-NX: Next.js SVGR support is deprecated. If used with turbopack, it may not work as expected and is not recommended. Please configure SVGR manually.
- [32m[1m✓[22m[39m Ready in 1777ms
- [37m[1m○[22m[39m Compiling / ...
- [32m[1m✓[22m[39m Compiled / in 2.7s (654 modules)
- GET / [32m200[39m in 3084ms
- [32m[1m✓[22m[39m Compiled in 173ms (310 modules)
-^C[?25h

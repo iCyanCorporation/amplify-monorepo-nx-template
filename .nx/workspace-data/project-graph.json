@@ -14164,6 +14164,11 @@
       {
         "source": "@sample/sample",
         "target": "npm:next",
+        "type": "dynamic"
+      },
+      {
+        "source": "@sample/sample",
+        "target": "npm:next",
         "type": "static"
       },
       {
@@ -33497,5 +33502,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1752137905530
+  "computedAt": 1752138602064
 }

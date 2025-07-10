@@ -1883,5 +1883,1175 @@
       ],
       "command": "npx nx watch --projects @sample/sample --includeDependentProjects -- npx nx build-deps @sample/sample"
     }
+  },
+  "405974437110044303": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/sample",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/sample/.next/!(cache)/**/*",
+        "{workspaceRoot}/apps/sample/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "continuous": true,
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/sample"
+      }
+    },
+    "start": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/sample"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/sample"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "continuous": true,
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects @sample/sample --includeDependentProjects -- npx nx build-deps @sample/sample"
+    }
+  },
+  "14183795371037654098": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/sample",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/sample/.next/!(cache)/**/*",
+        "{workspaceRoot}/apps/sample/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "continuous": true,
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/sample"
+      }
+    },
+    "start": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/sample"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/sample"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "continuous": true,
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects @sample/sample --includeDependentProjects -- npx nx build-deps @sample/sample"
+    }
+  },
+  "11085403033603183486": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/sample",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/sample/.next/!(cache)/**/*",
+        "{workspaceRoot}/apps/sample/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "continuous": true,
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/sample"
+      }
+    },
+    "start": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/sample"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/sample"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "continuous": true,
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects @sample/sample --includeDependentProjects -- npx nx build-deps @sample/sample"
+    }
+  },
+  "1385121198977871354": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/sample",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/sample/.next/!(cache)/**/*",
+        "{workspaceRoot}/apps/sample/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "continuous": true,
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/sample"
+      }
+    },
+    "start": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/sample"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/sample"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "continuous": true,
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects @sample/sample --includeDependentProjects -- npx nx build-deps @sample/sample"
+    }
+  },
+  "456629255161823961": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/sample",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/sample/.next/!(cache)/**/*",
+        "{workspaceRoot}/apps/sample/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "continuous": true,
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/sample"
+      }
+    },
+    "start": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/sample"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/sample"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "continuous": true,
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects @sample/sample --includeDependentProjects -- npx nx build-deps @sample/sample"
+    }
+  },
+  "8258241472449489113": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/sample",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/sample/.next/!(cache)/**/*",
+        "{workspaceRoot}/apps/sample/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "continuous": true,
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/sample"
+      }
+    },
+    "start": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/sample"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/sample"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "continuous": true,
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects @sample/sample --includeDependentProjects -- npx nx build-deps @sample/sample"
+    }
+  },
+  "14402831184107466500": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/sample",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/sample/.next/!(cache)/**/*",
+        "{workspaceRoot}/apps/sample/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "continuous": true,
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/sample"
+      }
+    },
+    "start": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/sample"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/sample"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "continuous": true,
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects @sample/sample --includeDependentProjects -- npx nx build-deps @sample/sample"
+    }
+  },
+  "14475448446637869779": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/sample",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/sample/.next/!(cache)/**/*",
+        "{workspaceRoot}/apps/sample/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "continuous": true,
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/sample"
+      }
+    },
+    "start": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/sample"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/sample"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "continuous": true,
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects @sample/sample --includeDependentProjects -- npx nx build-deps @sample/sample"
+    }
+  },
+  "13848595082429925079": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/sample",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/sample/.next/!(cache)/**/*",
+        "{workspaceRoot}/apps/sample/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "continuous": true,
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/sample"
+      }
+    },
+    "start": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/sample"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/sample"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "continuous": true,
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects @sample/sample --includeDependentProjects -- npx nx build-deps @sample/sample"
+    }
+  },
+  "9331100357275261465": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/sample",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/sample/.next/!(cache)/**/*",
+        "{workspaceRoot}/apps/sample/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "continuous": true,
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/sample"
+      }
+    },
+    "start": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/sample"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/sample"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "continuous": true,
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects @sample/sample --includeDependentProjects -- npx nx build-deps @sample/sample"
+    }
+  },
+  "16267894408755812466": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/sample",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/sample/.next/!(cache)/**/*",
+        "{workspaceRoot}/apps/sample/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "continuous": true,
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/sample"
+      }
+    },
+    "start": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/sample"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/sample"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "continuous": true,
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects @sample/sample --includeDependentProjects -- npx nx build-deps @sample/sample"
+    }
+  },
+  "15774608198849007366": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/sample",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/sample/.next/!(cache)/**/*",
+        "{workspaceRoot}/apps/sample/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "continuous": true,
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/sample"
+      }
+    },
+    "start": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/sample"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/sample"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "continuous": true,
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects @sample/sample --includeDependentProjects -- npx nx build-deps @sample/sample"
+    }
+  },
+  "2661860948811732114": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/sample",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/sample/.next/!(cache)/**/*",
+        "{workspaceRoot}/apps/sample/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "continuous": true,
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/sample"
+      }
+    },
+    "start": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/sample"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/sample"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "continuous": true,
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects @sample/sample --includeDependentProjects -- npx nx build-deps @sample/sample"
+    }
+  },
+  "8961854945095766877": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/sample",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/sample/.next/!(cache)/**/*",
+        "{workspaceRoot}/apps/sample/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "continuous": true,
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/sample"
+      }
+    },
+    "start": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/sample"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/sample"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "continuous": true,
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects @sample/sample --includeDependentProjects -- npx nx build-deps @sample/sample"
+    }
+  },
+  "2578762395054361418": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/sample",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/sample/.next/!(cache)/**/*",
+        "{workspaceRoot}/apps/sample/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "continuous": true,
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/sample"
+      }
+    },
+    "start": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/sample"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/sample"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "continuous": true,
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects @sample/sample --includeDependentProjects -- npx nx build-deps @sample/sample"
+    }
+  },
+  "9811826990045043013": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/sample",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/sample/.next/!(cache)/**/*",
+        "{workspaceRoot}/apps/sample/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "continuous": true,
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/sample"
+      }
+    },
+    "start": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/sample"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/sample"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "continuous": true,
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects @sample/sample --includeDependentProjects -- npx nx build-deps @sample/sample"
+    }
+  },
+  "11012046490663756735": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/sample",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/sample/.next/!(cache)/**/*",
+        "{workspaceRoot}/apps/sample/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "continuous": true,
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/sample"
+      }
+    },
+    "start": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/sample"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/sample"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "continuous": true,
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects @sample/sample --includeDependentProjects -- npx nx build-deps @sample/sample"
+    }
+  },
+  "4266919384087654394": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/sample",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/sample/.next/!(cache)/**/*",
+        "{workspaceRoot}/apps/sample/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "continuous": true,
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/sample"
+      }
+    },
+    "start": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/sample"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "continuous": true,
+      "command": "next start",
+      "options": {
+        "cwd": "apps/sample"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "continuous": true,
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects @sample/sample --includeDependentProjects -- npx nx build-deps @sample/sample"
+    }
   }
 }

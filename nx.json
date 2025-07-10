@@ -70,6 +70,12 @@
         "style": "tailwind",
         "linter": "eslint"
       }
+    },
+    "projects": {
+      "backend-amplify": {
+        "root": "packages/backend/amplify",
+        "tags": []
+      }
     }
   }
 }

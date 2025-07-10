@@ -6467,18 +6467,18 @@
       "type": "npm",
       "name": "npm:chokidar",
       "data": {
-        "version": "3.6.0",
-        "packageName": "chokidar",
-        "hash": "sha512-7VT13fmjotKpGipCW9JEQAusEPE+Ei8nl6/g4FBAmIm0GOOLMua9NDDo/DWp0ZAxCr3cPq5ZpBqmPAQgDda2Pw=="
-      }
-    },
-    "npm:chokidar@4.0.3": {
-      "type": "npm",
-      "name": "npm:chokidar@4.0.3",
-      "data": {
         "version": "4.0.3",
         "packageName": "chokidar",
         "hash": "sha512-Qgzu8kfBvo+cA4962jnP1KkS6Dop5NS6g7R5LFYJr4b8Ub94PPQXUksCw9PvXoeXPRRddRNC5C1JQUR2SMGtnA=="
+      }
+    },
+    "npm:chokidar@3.6.0": {
+      "type": "npm",
+      "name": "npm:chokidar@3.6.0",
+      "data": {
+        "version": "3.6.0",
+        "packageName": "chokidar",
+        "hash": "sha512-7VT13fmjotKpGipCW9JEQAusEPE+Ei8nl6/g4FBAmIm0GOOLMua9NDDo/DWp0ZAxCr3cPq5ZpBqmPAQgDda2Pw=="
       }
     },
     "npm:chrome-trace-event": {
@@ -8486,6 +8486,24 @@
         "version": "8.1.0",
         "packageName": "fs-extra",
         "hash": "sha512-yhlQgA6mnOJUKOsRUFsgJdQCvkKhcz8tlZG5HBQfReYZy46OwLcY+Zia0mtdHsOo9y/hP+CxMN0TU9QxoOtG4g=="
+      }
+    },
+    "npm:readdirp@3.6.0": {
+      "type": "npm",
+      "name": "npm:readdirp@3.6.0",
+      "data": {
+        "version": "3.6.0",
+        "packageName": "readdirp",
+        "hash": "sha512-hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA=="
+      }
+    },
+    "npm:readdirp": {
+      "type": "npm",
+      "name": "npm:readdirp",
+      "data": {
+        "version": "4.1.2",
+        "packageName": "readdirp",
+        "hash": "sha512-GDhwkLfywWL2s6vEjyhri+eXmfH6j1L7JE27WhqLeYzoh/A3DBaYGEj2H/HFZCn/kMfim73FXxEJTw06WtxQwg=="
       }
     },
     "npm:form-data": {
@@ -12178,24 +12196,6 @@
         "hash": "sha512-Owdv/Ft7IjOgm/i0xvNDZ1LrRANRfew4b2prF3OWMQLxLfu3bS8FVhCsrSCMK4lR56Y9ya+AThoTpDCTxCmpRA=="
       }
     },
-    "npm:readdirp": {
-      "type": "npm",
-      "name": "npm:readdirp",
-      "data": {
-        "version": "3.6.0",
-        "packageName": "readdirp",
-        "hash": "sha512-hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA=="
-      }
-    },
-    "npm:readdirp@4.1.2": {
-      "type": "npm",
-      "name": "npm:readdirp@4.1.2",
-      "data": {
-        "version": "4.1.2",
-        "packageName": "readdirp",
-        "hash": "sha512-GDhwkLfywWL2s6vEjyhri+eXmfH6j1L7JE27WhqLeYzoh/A3DBaYGEj2H/HFZCn/kMfim73FXxEJTw06WtxQwg=="
-      }
-    },
     "npm:reflect.getprototypeof": {
       "type": "npm",
       "name": "npm:reflect.getprototypeof",
@@ -14161,11 +14161,6 @@
       }
     ],
     "@sample/sample": [
-      {
-        "source": "@sample/sample",
-        "target": "npm:next",
-        "type": "dynamic"
-      },
       {
         "source": "@sample/sample",
         "target": "npm:next",
@@ -20124,6 +20119,11 @@
       },
       {
         "source": "npm:@swc/cli",
+        "target": "npm:chokidar",
+        "type": "static"
+      },
+      {
+        "source": "npm:@swc/cli",
         "target": "npm:@swc/counter",
         "type": "static"
       },
@@ -22518,42 +22518,7 @@
     "npm:chokidar": [
       {
         "source": "npm:chokidar",
-        "target": "npm:anymatch",
-        "type": "static"
-      },
-      {
-        "source": "npm:chokidar",
-        "target": "npm:braces",
-        "type": "static"
-      },
-      {
-        "source": "npm:chokidar",
-        "target": "npm:glob-parent@5.1.2",
-        "type": "static"
-      },
-      {
-        "source": "npm:chokidar",
-        "target": "npm:is-binary-path",
-        "type": "static"
-      },
-      {
-        "source": "npm:chokidar",
-        "target": "npm:is-glob",
-        "type": "static"
-      },
-      {
-        "source": "npm:chokidar",
-        "target": "npm:normalize-path",
-        "type": "static"
-      },
-      {
-        "source": "npm:chokidar",
         "target": "npm:readdirp",
-        "type": "static"
-      },
-      {
-        "source": "npm:chokidar",
-        "target": "npm:fsevents",
         "type": "static"
       }
     ],
@@ -25485,7 +25450,7 @@
       },
       {
         "source": "npm:fork-ts-checker-webpack-plugin",
-        "target": "npm:chokidar",
+        "target": "npm:chokidar@3.6.0",
         "type": "static"
       },
       {
@@ -25534,6 +25499,48 @@
         "type": "static"
       }
     ],
+    "npm:chokidar@3.6.0": [
+      {
+        "source": "npm:chokidar@3.6.0",
+        "target": "npm:anymatch",
+        "type": "static"
+      },
+      {
+        "source": "npm:chokidar@3.6.0",
+        "target": "npm:braces",
+        "type": "static"
+      },
+      {
+        "source": "npm:chokidar@3.6.0",
+        "target": "npm:glob-parent@5.1.2",
+        "type": "static"
+      },
+      {
+        "source": "npm:chokidar@3.6.0",
+        "target": "npm:is-binary-path",
+        "type": "static"
+      },
+      {
+        "source": "npm:chokidar@3.6.0",
+        "target": "npm:is-glob",
+        "type": "static"
+      },
+      {
+        "source": "npm:chokidar@3.6.0",
+        "target": "npm:normalize-path",
+        "type": "static"
+      },
+      {
+        "source": "npm:chokidar@3.6.0",
+        "target": "npm:readdirp@3.6.0",
+        "type": "static"
+      },
+      {
+        "source": "npm:chokidar@3.6.0",
+        "target": "npm:fsevents",
+        "type": "static"
+      }
+    ],
     "npm:fs-extra@10.1.0": [
       {
         "source": "npm:fs-extra@10.1.0",
@@ -25548,6 +25555,13 @@
       {
         "source": "npm:fs-extra@10.1.0",
         "target": "npm:universalify",
+        "type": "static"
+      }
+    ],
+    "npm:readdirp@3.6.0": [
+      {
+        "source": "npm:readdirp@3.6.0",
+        "target": "npm:picomatch@2.3.1",
         "type": "static"
       }
     ],
@@ -30158,13 +30172,6 @@
         "type": "static"
       }
     ],
-    "npm:readdirp": [
-      {
-        "source": "npm:readdirp",
-        "target": "npm:picomatch@2.3.1",
-        "type": "static"
-      }
-    ],
     "npm:reflect.getprototypeof": [
       {
         "source": "npm:reflect.getprototypeof",
@@ -30413,7 +30420,7 @@
     "npm:sass": [
       {
         "source": "npm:sass",
-        "target": "npm:chokidar@4.0.3",
+        "target": "npm:chokidar",
         "type": "static"
       },
       {
@@ -30578,13 +30585,6 @@
       {
         "source": "npm:sass-loader",
         "target": "npm:neo-async",
-        "type": "static"
-      }
-    ],
-    "npm:chokidar@4.0.3": [
-      {
-        "source": "npm:chokidar@4.0.3",
-        "target": "npm:readdirp@4.1.2",
         "type": "static"
       }
     ],
@@ -31791,7 +31791,7 @@
       },
       {
         "source": "npm:tailwindcss",
-        "target": "npm:chokidar",
+        "target": "npm:chokidar@3.6.0",
         "type": "static"
       },
       {
@@ -33024,7 +33024,7 @@
       },
       {
         "source": "npm:webpack-dev-server",
-        "target": "npm:chokidar",
+        "target": "npm:chokidar@3.6.0",
         "type": "static"
       },
       {
@@ -33497,5 +33497,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1752130358123
+  "computedAt": 1752137905530
 }

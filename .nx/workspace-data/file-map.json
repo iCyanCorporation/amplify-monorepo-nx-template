@@ -50,48 +50,48 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "tsconfig.base.json",
-        "hash": "18132073024976155609"
-      },
-      {
         "file": "package-lock.json",
-        "hash": "6929822451753984392"
-      },
-      {
-        "file": "tsconfig.json",
-        "hash": "5301191823829156298"
+        "hash": "8530112061199151631"
       },
       {
         "file": "LICENSE",
         "hash": "15269983698036597962"
       },
       {
-        "file": "eslint.config.mjs",
-        "hash": "10770449096712831357"
+        "file": "tsconfig.json",
+        "hash": "5301191823829156298"
       },
       {
         "file": "jest.config.ts",
         "hash": "6870352021923392442"
       },
       {
-        "file": "README.md",
-        "hash": "5954079149081344547"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "10522379923387884116"
-      },
-      {
-        "file": "package.json",
-        "hash": "13116438907327730668"
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
       },
       {
         "file": "nx.json",
         "hash": "7699408496434266375"
       },
       {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
+        "file": "package.json",
+        "hash": "13116438907327730668"
+      },
+      {
+        "file": "eslint.config.mjs",
+        "hash": "10770449096712831357"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "18132073024976155609"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "10522379923387884116"
+      },
+      {
+        "file": "README.md",
+        "hash": "5954079149081344547"
       }
     ],
     "projectFileMap": {
@@ -131,11 +131,11 @@
       "@sample/sample": [
         {
           "file": "apps/sample/.next/app-build-manifest.json",
-          "hash": "7205868890036356358"
+          "hash": "6642808631538785885"
         },
         {
           "file": "apps/sample/.next/build-manifest.json",
-          "hash": "5125768831124365349"
+          "hash": "2702609462139627143"
         },
         {
           "file": "apps/sample/.next/cache/.rscinfo",
@@ -143,10 +143,10 @@
         },
         {
           "file": "apps/sample/.next/cache/webpack/client-development/0.pack.gz",
-          "hash": "11274889817260301275"
+          "hash": "6451171731048530097"
         },
         {
-          "file": "apps/sample/.next/cache/webpack/client-development/index.pack.gz",
+          "file": "apps/sample/.next/cache/webpack/client-development/index.pack.gz.old",
           "hash": "990731867411551703"
         },
         {
@@ -167,21 +167,7 @@
         },
         {
           "file": "apps/sample/.next/server/app-paths-manifest.json",
-          "hash": "6045270427439857966"
-        },
-        {
-          "file": "apps/sample/.next/server/app/page.js",
-          "hash": "2003181814049752273",
-          "deps": [
-            [
-              "npm:next",
-              "dynamic"
-            ]
-          ]
-        },
-        {
-          "file": "apps/sample/.next/server/app/page_client-reference-manifest.js",
-          "hash": "4923000182608782489"
+          "hash": "1389868326933519382"
         },
         {
           "file": "apps/sample/.next/server/interception-route-rewrite-manifest.js",
@@ -189,7 +175,7 @@
         },
         {
           "file": "apps/sample/.next/server/middleware-build-manifest.js",
-          "hash": "10146558356613894909"
+          "hash": "10087042376963020870"
         },
         {
           "file": "apps/sample/.next/server/middleware-manifest.json",
@@ -220,40 +206,8 @@
           "hash": "498564874645889256"
         },
         {
-          "file": "apps/sample/.next/server/vendor-chunks/next.js",
-          "hash": "603938524433669639"
-        },
-        {
-          "file": "apps/sample/.next/server/webpack-runtime.js",
-          "hash": "11777626620169851192"
-        },
-        {
-          "file": "apps/sample/.next/static/chunks/app-pages-internals.js",
-          "hash": "15321836604109694528"
-        },
-        {
-          "file": "apps/sample/.next/static/chunks/app/layout.js",
-          "hash": "16322031283333146646"
-        },
-        {
-          "file": "apps/sample/.next/static/chunks/app/page.js",
-          "hash": "14748787885475364451"
-        },
-        {
-          "file": "apps/sample/.next/static/chunks/main-app.js",
-          "hash": "649521901599138792"
-        },
-        {
           "file": "apps/sample/.next/static/chunks/polyfills.js",
           "hash": "8152964857117933876"
-        },
-        {
-          "file": "apps/sample/.next/static/chunks/webpack.js",
-          "hash": "4811975935589978112"
-        },
-        {
-          "file": "apps/sample/.next/static/css/app/layout.css",
-          "hash": "2056694122843768230"
         },
         {
           "file": "apps/sample/.next/static/development/_buildManifest.js",
@@ -264,38 +218,8 @@
           "hash": "17018243955171961484"
         },
         {
-          "file": "apps/sample/.next/static/webpack/2fd017e88bfb2eb7.webpack.hot-update.json",
-          "hash": "8773209185785337189"
-        },
-        {
-          "file": "apps/sample/.next/static/webpack/633457081244afec._.hot-update.json",
-          "hash": "10481436618516908015"
-        },
-        {
-          "file": "apps/sample/.next/static/webpack/app/layout.2fd017e88bfb2eb7.hot-update.js",
-          "hash": "695553955226533062"
-        },
-        {
-          "file": "apps/sample/.next/static/webpack/webpack.2fd017e88bfb2eb7.hot-update.js",
-          "hash": "14597645688314835874"
-        },
-        {
           "file": "apps/sample/.next/trace",
-          "hash": "17427784559885129906"
-        },
-        {
-          "file": "apps/sample/.next/types/app/layout.ts",
-          "hash": "407339161636847954",
-          "deps": [
-            "npm:next"
-          ]
-        },
-        {
-          "file": "apps/sample/.next/types/app/page.ts",
-          "hash": "2482142779855448345",
-          "deps": [
-            "npm:next"
-          ]
+          "hash": "469622965569672913"
         },
         {
           "file": "apps/sample/.next/types/cache-life.d.ts",
@@ -352,7 +276,7 @@
         },
         {
           "file": "apps/sample/next.config.js",
-          "hash": "5443563404894739361",
+          "hash": "6290173569789862931",
           "deps": [
             "npm:@nx/next"
           ]

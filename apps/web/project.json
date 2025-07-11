@@ -1,0 +1,42 @@
+{
+  "name": "@workspace/web",
+  "projectType": "application",
+  "root": "apps/web",
+  "sourceRoot": "apps/web/app",
+  "targets": {
+    "build": {
+      "executor": "@nx/next:build",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/apps/web",
+        "root": "apps/web",
+        "config": "apps/web/next.config.js"
+      }
+    },
+    "serve": {
+      "executor": "@nx/next:serve",
+      "options": {
+        "buildTarget": "@workspace/web:build"
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint",
+      "options": {
+        "lintFilePatterns": [
+          "apps/web/**/*.ts",
+          "apps/web/**/*.tsx",
+          "apps/web/**/*.js",
+          "apps/web/**/*.jsx"
+        ]
+      }
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["coverage/apps/web"],
+      "options": {
+        "jestConfig": "apps/web/jest.config.ts",
+        "passWithNoTests": true
+      }
+    }
+  }
+}

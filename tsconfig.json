@@ -11,6 +11,16 @@
     },
     {
       "path": "./apps/mobile"
+    },
+    {
+      "path": "./packages/shadcn"
     }
-  ]
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@packages/shadcn": ["packages/shadcn/src/index.ts"],
+      "@packages/shadcn/*": ["packages/shadcn/src/*"]
+    }
+  }
 }

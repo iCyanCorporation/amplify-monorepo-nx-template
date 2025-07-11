@@ -2,9 +2,6 @@
   "name": "@workspace/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {
-    "postinstall": "npx ampx postinstall"
-  },
   "private": true,
   "devDependencies": {
     "@aws-amplify/ui-react": "^6.11.2",

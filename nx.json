@@ -87,6 +87,13 @@
       }
     }
   ],
+  "projects": {
+    "backend-amplify": {
+      "root": "packages/backend/amplify",
+      "projectType": "library",
+      "targets": {}
+    }
+  },
   "targetDefaults": {
     "test": {
       "dependsOn": ["^build"]

@@ -1,0 +1,8 @@
+{
+  "name": "backend-amplify",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/backend/amplify/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {}
+}

@@ -2,6 +2,8 @@
 
 A monorepo template using AWS Amplify, Nx, and shadcn/ui for building scalable web and mobile applications.
 
+![Sample Page Screenshot](docs/sample.png)
+
 ## Prerequisites
 
 - Node.js 18+

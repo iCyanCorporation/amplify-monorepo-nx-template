@@ -10,7 +10,7 @@ export default function Page() {
     <div className="text-center h-screen flex flex-col items-center justify-center">
       <p>Hello world!</p>
       <p className="text-gray-500">This is a Next.js app.</p>
-      <Button variant="primary" className="mt-4">
+      <Button variant="default" className="mt-4">
         test button
       </Button>
     </div>

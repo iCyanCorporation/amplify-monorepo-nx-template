@@ -9,7 +9,9 @@ export default function Page() {
   return (
     <div className="text-center h-screen flex flex-col items-center justify-center">
       <p>Hello world!</p>
-      <p className="text-gray-500">This is a Next.js app.</p>
+      <p className="text-gray-500">
+        This is a Next.js + shadcn + Nx monorepo app.
+      </p>
       <Button variant="default" className="mt-4">
         test button
       </Button>

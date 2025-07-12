@@ -98,17 +98,7 @@
       }
     }
   ],
-  "projects": {
-    "backend-amplify": {
-      "root": "packages/backend/amplify",
-      "projectType": "library",
-      "targets": {}
-    },
-    "@workspace/web": {
-      "root": "apps/web",
-      "projectType": "application"
-    }
-  },
+
   "targetDefaults": {
     "test": {
       "dependsOn": ["^build"]

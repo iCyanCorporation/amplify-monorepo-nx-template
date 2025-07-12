@@ -9,7 +9,7 @@
     "cssVariables": true
   },
   "aliases": {
-    "components": "packages/shadcn/components",
+    "components": "packages/shadcn/src/components",
     "utils": "packages/shadcn/lib/utils"
   }
 }

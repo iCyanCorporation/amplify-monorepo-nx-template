@@ -4,6 +4,13 @@
   "sourceRoot": "packages/shadcn/src",
   "projectType": "library",
   "tags": [],
-  "// targets": "to see all targets run: nx show project shadcn --web",
-  "targets": {}
+  "targets": {
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["packages/shadcn/**/*.{ts,tsx,js,jsx}"]
+      }
+    }
+  }
 }

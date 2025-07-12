@@ -20,8 +20,7 @@
     "customConditions": ["development"],
     "paths": {
       "@packages/shadcn": ["packages/shadcn/src/index.ts"],
-      "@packages/shadcn/*": ["packages/shadcn/src/*"],
-      "@workspace/shadcn": ["packages/shadcn/src/index.ts"]
+      "@packages/shadcn/*": ["packages/shadcn/src/*"]
     }
   },
   "exclude": ["node_modules", "tmp"]

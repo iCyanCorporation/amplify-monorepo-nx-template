@@ -1,0 +1,17 @@
+{
+  "yourCart": "購物車",
+  "emptyTitle": "您的購物車是空的",
+  "emptyDesc": "請將商品加入購物車以進行結帳。",
+  "continueShopping": "繼續購物",
+  "cartItems": "購物車商品",
+  "clearCart": "清空購物車",
+  "orderSummary": "訂單摘要",
+  "items": "商品數 ({{count}})",
+  "shipping": "運費",
+  "shippingCalc": "結帳時計算",
+  "tax": "稅金",
+  "taxCalc": "結帳時計算",
+  "subtotal": "小計",
+  "proceedToCheckout": "前往結帳",
+  "unitPrice": "單價"
+}

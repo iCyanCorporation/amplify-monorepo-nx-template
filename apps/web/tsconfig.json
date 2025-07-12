@@ -36,8 +36,13 @@
     "app/**/*.jsx",
     "app/**/*.ts",
     "app/**/*.tsx",
+    "components/**/*.js",
+    "components/**/*.jsx",
+    "components/**/*.ts",
+    "components/**/*.tsx",
     "next-env.d.ts",
-    ".next/types/**/*.ts"
+    ".next/types/**/*.ts",
+    "middleware.ts"
   ],
   "exclude": [
     "out-tsc",

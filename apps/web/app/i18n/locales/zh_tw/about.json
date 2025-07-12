@@ -1,0 +1,142 @@
+{
+  "title": "關於我 | 我的網站",
+  "description": "關於我的經歷、技能與專案。",
+  "profile": {
+    "name": "您的姓名",
+    "title": "您的職稱",
+    "bio": "簡要描述您自己、您的專業領域，以及您的熱情所在。分享您的專長與在領域中的獨特之處。這一部分有助於訪客了解您的背景與專業重點。"
+  },
+  "work experience": "主要專案",
+  "side projects": "副業專案",
+  "studies": "學歷",
+  "technicalSkills": "技術技能",
+  "schedule a call": "預約通話",
+  "design": "設計",
+  "development": "開發",
+  "languages": "語言",
+  "tools": "工具",
+  "workExperience": {
+    "company1": {
+      "name": "專案名稱 1",
+      "position": "您的角色",
+      "achievements": {
+        "no1": "此專案中的主要成就或職責",
+        "no2": "您做出的另一項重要貢獻",
+        "no3": "您實施的技術或方法"
+      }
+    },
+    "company2": {
+      "name": "專案名稱 2",
+      "position": "您的角色",
+      "achievements": {
+        "no1": "主要職責或成就",
+        "no2": "次要貢獻或技術實現"
+      }
+    },
+    "company3": {
+      "name": "專案名稱 3",
+      "position": "您的角色",
+      "achievements": {
+        "no1": "專案描述或主要職責",
+        "no2": "您設計的特定功能或系統",
+        "no3": "使用的技術（如 Python、JavaScript、雲端服務）"
+      }
+    },
+    "company4": {
+      "name": "專案名稱 4",
+      "position": "您的角色",
+      "achievements": {
+        "no1": "遷移或實施工作的描述"
+      }
+    },
+    "company5": {
+      "name": "專案名稱 5",
+      "position": "您的角色",
+      "achievements": {
+        "no1": "系統升級或維護描述",
+        "no2": "測試或實施細節"
+      }
+    },
+    "company6": {
+      "name": "專案名稱 6",
+      "position": "您的角色",
+      "achievements": {
+        "no1": "專案的主要功能或目的",
+        "no2": "使用的技術與目標平台"
+      }
+    },
+    "company7": {
+      "name": "專案名稱 7",
+      "position": "您的角色",
+      "achievements": {
+        "no1": "專案概念與主要功能",
+        "no2": "前端框架或技術亮點",
+        "no3": "部署或維護成就"
+      }
+    },
+    "company8": {
+      "name": "專案名稱 8",
+      "position": "您的角色",
+      "achievements": {
+        "no1": "專案範圍與客戶類型",
+        "no2": "後端整合或技術細節",
+        "no3": "實現的其他功能"
+      }
+    },
+    "company9": {
+      "name": "專案名稱 9",
+      "position": "您的角色",
+      "achievements": {
+        "no1": "應用類型與平台覆蓋",
+        "no2": "實現的進階功能或整合"
+      }
+    }
+  },
+  "education": {
+    "no1": {
+      "institution": "大學名稱",
+      "degree": "您的學位或課程",
+      "description": "簡要描述您的學習內容或專業方向"
+    },
+    "no2": {
+      "institution": "另一所學校",
+      "degree": "學位名稱",
+      "description": "重點領域或主要學科"
+    }
+  },
+  "otherExperience": {
+    "no1": {
+      "title": "其他經歷",
+      "description": "其他相關經驗的簡要描述"
+    }
+  },
+  "skills": {
+    "uiDesign": "UI/UX 設計",
+    "logoDesign": "標誌設計",
+    "prototyping": "原型設計",
+    "react": "React.js",
+    "nextjs": "Next.js",
+    "Python": "Python",
+    "typescript": "TypeScript",
+    "nodejs": "Node.js",
+    "tailwind": "Tailwind CSS",
+    "english": "語言 1（程度）",
+    "japanese": "語言 2（程度）",
+    "chinese": "語言 3（程度）",
+    "figma": "設計工具 1",
+    "gimp": "設計工具 2",
+    "adobe": "設計工具 3",
+    "vscode": "開發工具 1",
+    "git": "版本控制 1",
+    "github": "平台 1",
+    "aws": "雲端平台 1",
+    "azure": "雲端平台 2",
+    "gcp": "雲端平台 3",
+    "docker": "容器平台"
+  },
+  "social": {
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "email": "電子郵件"
+  }
+}

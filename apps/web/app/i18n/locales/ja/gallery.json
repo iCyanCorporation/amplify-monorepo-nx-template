@@ -1,0 +1,30 @@
+{
+  "title": "Gallery | My Website",
+  "description": "個人プロジェクトの一覧を表示するウェブサイト。技術と経験を展開するための様々なプロジェクトを紹介しています。",
+  "projects": {
+    "no1": {
+      "title": "Project 1",
+      "description": "プロジェクト1の簡単な説明。特徴と使用した技術を強調しています。"
+    },
+    "no2": {
+      "title": "Project 2",
+      "description": "プロジェクト2の簡単な説明。特徴と使用した技術を強調しています。"
+    },
+    "no3": {
+      "title": "Project 3",
+      "description": "プロジェクト3の簡単な説明。特徴と使用した技術を強調しています。"
+    },
+    "no4": {
+      "title": "Project 4",
+      "description": "プロジェクト4の簡単な説明。特徴と使用した技術を強調しています。"
+    }
+  },
+  "gallery": {
+    "title": "プロジェクト",
+    "description": "最近の作品とサイドプロジェクトのコレクション",
+    "filterByTags": "タグで絞り込む",
+    "searchTags": "タグを検索...",
+    "clearAll": "すべてクリア",
+    "viewProject": "プロジェクトを見る"
+  }
+}

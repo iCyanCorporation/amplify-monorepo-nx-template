@@ -1,0 +1,141 @@
+{
+  "title": "私について | My Website",
+  "description": "私の経験、スキルやプロジェクトについて説明します。",
+  "profile": {
+    "name": "Shiba",
+    "title": "ソフトウェアエンジニア",
+    "bio": "フルスタック開発とクラウドソリューションを専門とする経験豊富な技術者。効率的でスケーラブルなアプリケーションの開発に重点を置き、高いセキュリティ基準を維持しています。技術プロジェクトのリーダーシップと革新的なソリューションの実装において豊富な経験があります。"
+  },
+  "work experience": "主要プロジェクト",
+  "side projects": "サイドプロジェクト",
+  "studies": "学歴",
+  "technicalSkills": "技術スキル",
+  "schedule a call": "通話を予約",
+  "design": "デザイン",
+  "development": "開発",
+  "languages": "言語",
+  "tools": "ツール",
+  "workExperience": {
+    "company1": {
+      "name": "AI搭載検索プラットフォーム",
+      "position": "リードエンジニア",
+      "achievements": {
+        "no1": "AIを活用したウェブサービスの設計と開発",
+        "no2": "セキュアなユーザー認証システムとクラウドインフラの実装",
+        "no3": "クラウドプロバイダーを活用したスケーラブルなシステムの構築"
+      }
+    },
+    "company2": {
+      "name": "モバイルアプリケーション開発",
+      "position": "ソフトウェアエンジニア",
+      "achievements": {
+        "no1": "ユーザー中心のモバイルアプリケーション開発",
+        "no2": "継続的デプロイメントとテストプロセスの確立"
+      }
+    },
+    "company3": {
+      "name": "データ分析プラットフォーム",
+      "position": "システムエンジニア",
+      "achievements": {
+        "no1": "リアルタイムデータ処理システムの開発と保守",
+        "no2": "ダッシュボード型情報可視化システムの設計と運用",
+        "no3": "複数言語を用いたシステム自動化とバックエンド構築"
+      }
+    },
+    "company4": {
+      "name": "クラウドマイグレーションプロジェクト",
+      "position": "システムエンジニア",
+      "achievements": {
+        "no1": "レガシーシステムからクラウドプラットフォームへの移行とサーバーレスアーキテクチャの導入"
+      }
+    },
+    "company5": {
+      "name": "業務システム刷新",
+      "position": "システムエンジニア",
+      "achievements": {
+        "no1": "基幹業務システムのOSとデータベースの最新化",
+        "no2": "最新技術スタックによる品質保証システムの構築と実施"
+      }
+    },
+    "company6": {
+      "name": "マルチプラットフォームアプリ開発",
+      "position": "ソフトウェアエンジニア",
+      "achievements": {
+        "no1": "ユーザー向け生産性向上アプリケーションの開発",
+        "no2": "クロスプラットフォームフレームワークによる複数OSへの対応"
+      }
+    },
+    "company7": {
+      "name": "iOSアプリ開発",
+      "position": "ソフトウェアエンジニア",
+      "achievements": {
+        "no1": "ミニマリズムと効率性に焦点を当てたメモアプリの設計と開発",
+        "no2": "SwiftUIを使用してUI/UXを最適化し、スムーズで直感的なユーザー体験を確保",
+        "no3": "App Storeへの展開、定期的な更新と改善の維持"
+      }
+    },
+    "company8": {
+      "name": "ビジネス・企業向けウェブサイト開発",
+      "position": "ソフトウェアエンジニア",
+      "achievements": {
+        "no1": "ビジネス委託を通じて3つの企業ウェブサイト開発プロジェクトを完了",
+        "no2": "AWS AmplifyでのバックエンドAPI統合とデータベース管理を担当",
+        "no3": "eコマースとWordPressによるカート機能の構築"
+      }
+    },
+    "company9": {
+      "name": "デスクトップアプリケーション開発",
+      "position": "ソフトウェアエンジニア",
+      "achievements": {
+        "no1": "Windows、macOS、Linux向けにElectronを使用してクロスプラットフォームのデスクトップメール管理アプリケーションを開発",
+        "no2": "OpenAI APIを使用してAI機能を統合し、受信メールの要約と文脈に応じた返信の提案を実現し、生産性とコミュニケーション効率を向上"
+      }
+    }
+  },
+  "education": {
+    "no1": {
+      "institution": "国際大学",
+      "degree": "日本語研究",
+      "description": "集中的な日本語および文化研究プログラム"
+    },
+    "no2": {
+      "institution": "工科大学",
+      "degree": "コンピュータサイエンス学士",
+      "description": "コンピュータ基礎、アルゴリズムやソフトウェアエンジニアリングを学習"
+    }
+  },
+  "otherExperience": {
+    "no1": {
+      "title": "国際的な仕事経験",
+      "description": "オーストラリアと日本を含む複数の国での専門的な経験"
+    }
+  },
+  "skills": {
+    "uiDesign": "UI/UXデザイン",
+    "logoDesign": "ロゴデザイン",
+    "prototyping": "プロトタイピング",
+    "react": "React.js",
+    "nextjs": "Next.js",
+    "python": "Python",
+    "typescript": "TypeScript",
+    "nodejs": "Node.js",
+    "tailwind": "Tailwind CSS",
+    "english": "英語（ビジネス）",
+    "japanese": "日本語（流暢）",
+    "figma": "Figma",
+    "gimp": "GIMP",
+    "adobe": "Adobe Creative Suite",
+    "vscode": "Visual Studio Code",
+    "git": "Git",
+    "github": "GitHub",
+    "aws": "AWS",
+    "azure": "Azure",
+    "gcp": "Google Cloud Platform",
+    "docker": "Docker"
+  },
+  "social": {
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "email": "Email"
+  }
+}

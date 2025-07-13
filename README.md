@@ -101,3 +101,7 @@ export * from './components/ui/button';
 - `nx graph` - View project dependency graph
 - `nx affected:build` - Build affected projects
 - `nx affected:test` - Test affected projects
+
+## Refer
+
+https://docs.amplify.aws/nextjs/deploy-and-host/fullstack-branching/monorepos/

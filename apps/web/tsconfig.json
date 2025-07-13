@@ -1,6 +1,7 @@
 {
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {
+    "baseUrl": ".",
     "jsx": "preserve",
     "noEmit": true,
     "composite": false,
@@ -22,8 +23,10 @@
     ],
     "paths": {
       "@/*": ["./*"],
+      "@/amplify_outputs.json": ["./amplify_outputs.json"],
       "@packages/shadcn": ["../../packages/shadcn/src/index.ts"],
-      "@packages/shadcn/*": ["../../packages/shadcn/src/*"]
+      "@packages/shadcn/*": ["../../packages/shadcn/src/*"],
+      "@/data-schema": ["../../packages/backend/amplify/data/resource.ts"]
     },
     "types": ["jest", "node"],
     "outDir": "dist",
@@ -40,9 +43,12 @@
     "components/**/*.jsx",
     "components/**/*.ts",
     "components/**/*.tsx",
+    "lib/**/*.ts",
+    "lib/**/*.tsx",
     "next-env.d.ts",
     ".next/types/**/*.ts",
-    "middleware.ts"
+    "middleware.ts",
+    "amplify_outputs.json"
   ],
   "exclude": [
     "out-tsc",

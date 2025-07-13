@@ -14,13 +14,17 @@
     },
     {
       "path": "./packages/shadcn"
+    },
+    {
+      "path": "./packages/backend/amplify"
     }
   ],
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
       "@packages/shadcn": ["packages/shadcn/src/index.ts"],
-      "@packages/shadcn/*": ["packages/shadcn/src/*"]
+      "@packages/shadcn/*": ["packages/shadcn/src/*"],
+      "@/data-schema": ["packages/backend/amplify/data/resource"]
     }
   }
 }

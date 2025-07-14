@@ -1,4 +1,5 @@
 import './global.css';
+import '@aws-amplify/ui-react/styles.css';
 import { Providers } from './providers';
 
 export const metadata = {

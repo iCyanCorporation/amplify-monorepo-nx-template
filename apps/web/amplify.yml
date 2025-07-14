@@ -8,6 +8,7 @@ applications:
             - cp ./amplify_outputs.json ./apps/web
 
   - frontend:
+      appRoot: apps/web
       buildPath: '/' # run install and build from monorepo project root
       phases:
         preBuild:
@@ -23,4 +24,3 @@ applications:
       cache:
         paths:
           - node_modules/**/*
-    appRoot: 'apps/web'

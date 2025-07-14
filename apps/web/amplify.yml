@@ -16,12 +16,13 @@ applications:
           commands:
             - npx nx build web
       artifacts:
-        baseDirectory: dist/apps/web/.next
+        baseDirectory: dist/apps/web
         files:
           - '**/*'
       cache:
         paths:
-          - .next/cache/**/*
+          - dist/apps/web/.next/cache/**/*
           - .npm/**/*
+          - node_modules/.cache/**/*
       buildPath: .
     appRoot: apps/web

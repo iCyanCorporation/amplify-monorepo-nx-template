@@ -7,21 +7,20 @@ applications:
             - npx ampx generate outputs --branch $AWS_BRANCH --app-id $BACKEND_APP_ID
             - cp ./amplify_outputs.json ./apps/web
 
-    frontend:
+  - frontend:
+      buildPath: '/' # run install and build from monorepo project root
       phases:
         preBuild:
           commands:
-            - mkdir -p dist/apps/web
+            - npm install
         build:
           commands:
             - npx nx build web
       artifacts:
-        baseDirectory: dist/apps/web/.next
+        baseDirectory: apps/web/.next
         files:
           - '**/*'
       cache:
         paths:
-          - .next/cache/**/*
-          - .npm/**/*
-      buildPath: .
+          - node_modules/**/*
     appRoot: apps/web

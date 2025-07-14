@@ -76,12 +76,6 @@ npx nx run @workspace/mobile:build
 └── nx.json           # Nx workspace configuration
 ```
 
-## Deployment
-
-```bash
-amplify push
-```
-
 ## UI Components
 
 ### Adding shadcn/ui Components

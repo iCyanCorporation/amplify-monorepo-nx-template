@@ -8,6 +8,8 @@ A monorepo template using AWS Amplify, Nx, and shadcn/ui for building scalable w
 
 - Mobile Application
 
+  ![Sample Mobile Screenshot](docs/sample_mobile.png)
+
 ## Prerequisites
 
 - Node.js 18+
@@ -24,6 +26,7 @@ A monorepo template using AWS Amplify, Nx, and shadcn/ui for building scalable w
 - Shadcn UI
 - AWS Amplify Gen 2
 - Tailwind CSS
+- i18next
 
 ## Quick Start
 

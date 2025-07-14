@@ -82,6 +82,7 @@
     "apps/*"
   ],
   "dependencies": {
+    "aws-amplify": "^6.15.3",
     "@aws-amplify/backend": "^1.16.1",
     "@aws-amplify/backend-cli": "^1.8.0",
     "@radix-ui/react-dropdown-menu": "^2.1.15",

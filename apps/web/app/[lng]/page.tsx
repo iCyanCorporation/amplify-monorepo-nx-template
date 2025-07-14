@@ -41,7 +41,7 @@ export default async function Page({ params }: { params: Params }) {
       </header>
 
       {/* Main Content */}
-      <main className="flex flex-col items-center justify-center min-h-screen px-6">
+      <main className="flex flex-col items-center justify-center min-h-screen px-6 pt-16">
         <div className="text-center space-y-8 max-w-2xl">
           {/* Hero Section */}
           <div className="space-y-4">

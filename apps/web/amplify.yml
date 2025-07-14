@@ -23,4 +23,4 @@ applications:
       cache:
         paths:
           - node_modules/**/*
-    appRoot: apps/web
+    appRoot: 'apps/web'

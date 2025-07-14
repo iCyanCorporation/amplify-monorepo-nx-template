@@ -99,6 +99,14 @@ export * from './components/ui/button';
 - `nx affected:build` - Build affected projects
 - `nx affected:test` - Test affected projects
 
+## Deploy on AWS Amplify
+
+next packages in `/package.json` should be removed when deploying on Amplify in the first time
+
+```
+- "next": "~15.2.4",
+```
+
 ## Refer
 
 https://docs.amplify.aws/nextjs/deploy-and-host/fullstack-branching/monorepos/

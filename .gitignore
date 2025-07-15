@@ -3,6 +3,10 @@
 # AWS Amplify
 amplify_outputs.json
 
+# Environment parameters files
+.env
+.env.local
+
 # compiled output
 dist
 tmp

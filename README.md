@@ -101,11 +101,25 @@ export * from './components/ui/button';
 
 ## Deploy on AWS Amplify
 
-next packages in `/package.json` should be removed when deploying on Amplify in the first time
+### Backend
+
+1. Next packages in `/package.json` should be removed when deploying on Amplify in the first time
 
 ```
 - "next": "~15.2.4",
 ```
+
+2. Select repo and activate checkbox of this repo is a monorepo then key `packages/backend` in app path.
+
+### Web
+
+1. Added Next packages in `/package.json`.
+
+```
++ "next": "~15.2.4",
+```
+
+2. Select repo and activate checkbox of this repo is a monorepo then key `apps/web` in app path.
 
 ## Refer
 
